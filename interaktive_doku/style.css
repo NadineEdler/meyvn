@@ -17,6 +17,10 @@ h1 {
   color: #9D000D;
 }
 
+p {
+  margin-top: 30px;
+}
+
 .header {
   width: 100%;
 }
@@ -26,16 +30,27 @@ h1 {
   display: inline-block;
 }
 
-.content {
-  width: 80%;
-  margin-left: 10%;
-}
-
 .what {
   margin-top: 100px;
-  margin-bottom: 250px;
-  width: 50%;
+  width: 100%;
+  margin-bottom: 100px;
+}
 
+.what_text {
+  width: 50%;
+  padding-left: 120px;
+  display: inline-block;
+}
+
+.freisteller {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.freisteller img{
+  width: 100%;
+  display: inline-block;
 }
 
 .where {
@@ -79,12 +94,22 @@ h1 {
 }
 
 .logo {
+  width: 100%;
   margin-top: 100px;
   padding: 50px;
+  margin-bottom: 150px;
+  vertical-align: center;
 }
 
 .logo img {
   width: 50%;
+  margin-left: 25%;
+}
+
+.logo_text {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
 }
 
 .trailer {
@@ -95,10 +120,25 @@ h1 {
   width: 100%;
 }
 
-.values img{
+.values {
   width: 100%;
+  background-color: #9D000D;
+  height: 700px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
 }
 
+.value_text {
+  width: 49%;
+  padding: 20px;
+  height: 200px;
+  display: inline-block;
+}
+
+.values h1{
+  color: #ffffff;
+}
 
 .team {
   width: 100%;
