@@ -1,12 +1,10 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: Open Sans;
-  color:  #46494E;
+  color: #46494E;
   font-size: 12pt;
   line-height: 18pt;
 }
@@ -15,10 +13,6 @@ h1 {
   font-family: Ubuntu;
   font-size: 20pt;
   color: #9D000D;
-}
-
-p {
-  margin-top: 30px;
 }
 
 .header {
@@ -31,9 +25,7 @@ p {
 }
 
 .what {
-  margin-top: 100px;
   width: 100%;
-  margin-bottom: 100px;
 }
 
 .what_text {
@@ -48,37 +40,34 @@ p {
   vertical-align: top;
 }
 
-.freisteller img{
+.freisteller img {
   width: 100%;
   display: inline-block;
 }
 
 .environment {
-  width:100%;
-  margin: 0;
-  padding: 0;
+  width: 100%;
   box-sizing: border-box;
   vertical-align: top;
 }
 
-.span1{
+.span1 {
   display: inline-block;
   width: 33.33%;
 }
 
-.span2{
+.span2 {
   display: inline-block;
   width: 33.33%;
 }
 
-.span3{
+.span3 {
   display: inline-block;
   width: 33.33%;
 }
 
 .container {
   position: relative;
-  width: 100%;
 }
 
 .image {
@@ -137,7 +126,7 @@ p {
   width: 100%;
 }
 
-.statment{
+.statment {
   width: 49%;
   padding: 30px;
   font-family: Ubuntu;
@@ -194,7 +183,7 @@ p {
   color: #fff;
 }
 
-.values h1{
+.values h1 {
   color: #ffffff;
 }
 
@@ -215,9 +204,4 @@ p {
   width: 200px;
   margin: 30px;
   display: inline-block;
-}
-
-.mission {
-  text-align: center;
-  margin: 150px;
 }
