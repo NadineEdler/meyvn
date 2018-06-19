@@ -47,6 +47,10 @@ h1 {
   display: inline-block;
 }
 
+.section {
+  width: 100%;
+}
+
 .environment {
   box-sizing: border-box;
   vertical-align: top;
