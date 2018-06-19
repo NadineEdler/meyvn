@@ -214,7 +214,22 @@
   <!-- FullPage Script -->
   <script>
     $(document).ready(function () {
-      $('#fullpage').fullpage();
+      $('#fullpage').fullpage({
+        scrollingSpeed: 600,
+        continuousVertical: true,
+        fitToSection: true,
+        scrollOverflow: false,
+        keyboardScrolling: true,
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        sectionSelector: '.section',
+        // navigation
+        navigation: true,
+        navigationTooltips: ["meyvn", "why meyvn", "where is meyvn", "meyvn’s character", "meyvn’s technology",
+          "meyvn’s users", "meyvn’s community", "meyvn’s trailer", "meyvn values", "meyvn’s team"
+        ],
+        showActiveTooltip: true
+      });
     });
   </script>
 </body>

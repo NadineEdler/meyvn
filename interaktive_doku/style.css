@@ -7,6 +7,8 @@ body {
   color: #46494E;
   font-size: 12pt;
   line-height: 18pt;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -46,7 +48,6 @@ h1 {
 }
 
 .environment {
-  width: 100%;
   box-sizing: border-box;
   vertical-align: top;
 }
