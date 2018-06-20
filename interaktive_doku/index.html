@@ -25,9 +25,7 @@
         <div class="what_text">
           <h1>Was ist meyvn?</h1>
           <p>
-            Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-            tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+            meyvn ist eine Lampe, die die Frage eines Anwenders erfasst und an meyvns Cloud Service übermittelt. Dort wird diese analysiert und kategorisiert. Dem Anwender wird daraufhin die entsprechende Hilfestellung aus meyvns Community zugewiesen und ein Echtzeit-Dialog ermöglicht. So erhält der Anwender die passenden Lösungen und Antworten.</p>
         </div>
         <div class="freisteller">
           <img src="./img/meyvn_freisteller.png">
@@ -210,17 +208,19 @@
   <script>
     $(document).ready(function () {
       $('#fullpage').fullpage({
+        // the lower the number, the quicker the scrolling; speed in milliseconds for the scrolling transitions
         scrollingSpeed: 600,
+
         continuousVertical: true,
         fitToSection: true,
         keyboardScrolling: true,
         responsiveWidth: 0,
         responsiveHeight: 0,
         sectionSelector: '.section',
-        showActiveTooltip: true,
 
         // navigation
         navigation: true,
+        showActiveTooltip: true,
         navigationTooltips: ["meyvn", "why", "where", "character", "technology", "users", "community", "trailer", "values", "team"]
       });
     });
