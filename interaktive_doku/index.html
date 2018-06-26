@@ -5,127 +5,129 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <script src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="scrolloverflow.min.js"></script>
   <script src="jquery.fullPage.js"></script>
   <link rel="stylesheet" href="jquery.fullPage.css">
   <title>meyvn</title>
+
+  <!-- FullPage Script -->
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        // the lower the number, the quicker the scrolling; speed in milliseconds for the scrolling transitions
+        scrollingSpeed: 600,
+        // to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
+        css3: false,
+
+        fitToSection: true,
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        verticalCentered: true,
+        scrollOverflow: true,
+
+        // navigation dots
+        sectionSelector: '.section',
+        navigation: true,
+        showActiveTooltip: true,
+        navigationTooltips: ["meyvn", "why", "where", "character", "technology", "users", "community",
+          "trailer", "values", "team"
+        ],
+
+        continuousVertical: true
+      });
+    });
+  </script>
 </head>
 
 <body>
   <div id="fullpage">
-    <!-- Section 1: Product -->
-    <div class="section">
-      <div class="header">
-        <img class="img_header" src="./img/meyvn1.jpg">
+
+    <!-- Section 0: Product -->
+    <div class="section" id="section0">
+    </div>
+
+    <!-- Section 1: Explanation -->
+    <div class="section" id="section1">
+      <div class="what_text">
+        <h1>Was ist meyvn?</h1>
+        <p>meyvn ist eine Lampe, die die Frage eines Anwenders erfasst und an meyvns Cloud Service übermittelt. Dort wird diese
+          analysiert und kategorisiert. Dem Anwender wird daraufhin die entsprechende Hilfestellung aus meyvns Community
+          zugewiesen und ein Echtzeit-Dialog ermöglicht. So erhält der Anwender die passenden Lösungen und Antworten.</p>
       </div>
     </div>
 
-    <!-- Section 2: Explanation -->
-    <div class="section">
-      <div class="what">
-        <div class="what_text">
-          <h1>Was ist meyvn?</h1>
-          <p>
-            meyvn ist eine Lampe, die die Frage eines Anwenders erfasst und an meyvns Cloud Service übermittelt. Dort wird diese analysiert und kategorisiert. Dem Anwender wird daraufhin die entsprechende Hilfestellung aus meyvns Community zugewiesen und ein Echtzeit-Dialog ermöglicht. So erhält der Anwender die passenden Lösungen und Antworten.</p>
-        </div>
-        <div class="freisteller">
-          <img src="./img/meyvn_freisteller.png">
-        </div>
-      </div>
-    </div>
-
-    <!-- Section 3: Use Cases/Atmosphere -->
-    <div class="section">
-      <div class="environment">
+    <!-- Section 2: Use Cases/Atmosphere -->
+    <div class="section fp-noscroll" id="section2">
         <div class="span1">
-          <div class="container">
-            <img src="./img/m_e6.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
+            <div class="container">
+              <img src="./img/m_e6.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
+            </div><!--
+            --><div class="container">
+              <img src="./img/m_e3.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
             </div>
           </div><!--
-          --><div class="container">
-            <img src="./img/m_e3.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
-            </div>
-          </div>
-        </div><!--
-        --><div class="span2">
-          <div class="container">
-            <img src="./img/m_e4.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
-            </div>
-          </div><!--
-          --><div class="container">
-            <img src="./img/m_e5.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
-            </div>
-          </div>
-        </div><!--
-        --><div class="span3">
-          <div class="container">
-            <img src="./img/m_e2.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
+          --><div class="span2">
+            <div class="container">
+              <img src="./img/m_e4.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
+            </div><!--
+            --><div class="container">
+              <img src="./img/m_e5.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
             </div>
           </div><!--
-          --><div class="container">
-            <img src="./img/m_e1.jpg" class="image" alt="">
-            <div class="overlay">
-              <div class="text">meyvn am Schreibtisch</div>
+          --><div class="span3">
+            <div class="container">
+              <img src="./img/m_e2.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
+            </div><!--
+            --><div class="container">
+              <img src="./img/m_e1.jpg" class="image" alt="">
+              <div class="overlay">
+                <div class="text">meyvn am Schreibtisch</div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
     </div>
 
-    <!-- Section 4: Character/Interaction Design -->
-    <div class="section">
-      <div class="charakter">
-        <img src="./img/product.png">
-      </div>
+    <!-- Section 3: Character/Interaction Design -->
+    <div class="section" id="section3">
     </div>
 
-    <!-- Section 5: Technical Components -->
-    <div class="section">
-      <div class="components">
-        <img src="./img/meyvn1.jpg">
-      </div>
+    <!-- Section 4: Technical Components -->
+    <div class="section" id="section4">
     </div>
 
-    <!-- Section 6: Archetypes -->
-    <div class="section">
+    <!-- Section 5: Archetypes -->
+    <div class="section" id="section5">
       <!-- Slide 1: Macher -->
-      <div class="slide">
-        <div class="person">
-          <div class="photo">
-            <img src="./img/arc1.jpg">
-          </div>
-          <div class="statment"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
-        </div>
+      <div class="slide" id="slide1">
+        <div class="statement"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
       </div>
       <!-- Slide 2: Berater -->
-      <div class="slide">
-        <div class="person">
-          <div class="photo">
-            <img src="./img/arc1.jpg">
-          </div>
-          <div class="statment"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
-        </div>
+      <div class="slide" id="slide2">
+        <div class="statement"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
       </div>
       <!-- Slide 3: Neuling -->
-      <div class="slide">
-        <div class="photo">
-          <img src="./img/arc1.jpg">
-        </div>
-        <div class="statment"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
+      <div class="slide" id="slide3">
+        <div class="statement"> "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."</div>
       </div>
     </div>
 
-    <!-- Section 7: Logo & Community -->
-    <div class="section">
+    <!-- Section 6: Logo & Community -->
+    <div class="section" id="section6">
       <div class="logo">
         <img src="./img/meyvn_logo.png">
         <div class="logo_text">
@@ -134,40 +136,42 @@
       </div>
     </div>
 
-    <!-- Section 8: Trailer -->
-    <div class="section">
-      <div class="trailer">
-        <video autobuffer controls>
-          <source src="video.ogg" type="video/ogg">
-          <source alt="meyvn Trailer" src="./img/trailer.mp4" type="video/mp4">
-        </video>
-      </div>
+    <!-- Section 7: Trailer -->
+    <div class="section" id="section7">
+      <video id="trailer" autobuffer controls>
+        <source src="video.ogg" type="video/ogg">
+        <source alt="meyvn Trailer" src="./img/trailer.mp4" type="video/mp4">
+      </video>
     </div>
 
-    <!-- Section 9: Values -->
-    <div class="section">
+    <!-- Section 8: Values -->
+    <div class="section" id="section8">
       <div class="values">
         <div class="value_text">
           <h1>Community</h1>
-          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+          massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </div>
         <div class="value_text">
           <h1>Collaboration</h1>
-          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+          massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </div>
         <div class="value_text">
           <h1>Communication</h1>
-          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+          massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </div>
         <div class="value_text">
           <h1>User Centric</h1>
-          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Enabling wanted answers. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+          massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </div>
       </div>
     </div>
 
-    <!-- Section 10: Team -->
-    <div class="section">
+    <!-- Section 9: Team -->
+    <div class="section" id="section9">
       <div class="team">
         <div class="team_person">
           <img class="teamfotos" src="./img/nadine.jpg">
@@ -202,29 +206,6 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- FullPage Script -->
-  <script>
-    $(document).ready(function () {
-      $('#fullpage').fullpage({
-        // the lower the number, the quicker the scrolling; speed in milliseconds for the scrolling transitions
-        scrollingSpeed: 600,
-
-        continuousVertical: true,
-        fitToSection: true,
-        keyboardScrolling: true,
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        sectionSelector: '.section',
-
-        // navigation dots
-        navigation: true,
-        showActiveTooltip: true,
-        navigationTooltips: ["meyvn", "why", "where", "character", "technology", "users", "community", "trailer", "values", "team"]
-      });
-    });
-  </script>
 </body>
 
 </html>

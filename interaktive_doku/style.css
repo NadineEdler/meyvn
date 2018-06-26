@@ -1,244 +1,254 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Open Sans;
-  color: #46494E;
-  font-size: 12pt;
-  line-height: 18pt;
-  margin: 0;
-  padding: 0;
+    font-family: Open Sans;
+    color: #46494E;
+    font-size: 12pt;
+    line-height: 18pt;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-  font-family: Ubuntu;
-  font-size: 20pt;
-  color: #9D000D;
+    font-family: Ubuntu;
+    font-size: 20pt;
+    color: #9D000D;
 }
 
-
-/* Start-Slide */
-
-.header {
-  width: 100%;
+#section0 {
+    background-image: url(img/meyvn1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.img_header {
-  width: 100%;
-  display: inline-block;
-}
+/* Why-Section */
 
-
-/* Was-Slide */
-
-.what {
-  width: 100%;
+#section1 {
+    background-image: url(img/meyvn_freisteller.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .what_text {
-  width: 50%;
-  padding-left: 120px;
-  display: inline-block;
+    width: 50%;
+    padding-left: 120px;
+    text-align: left;
+    position: relative;
+    top: -15%;
 }
 
-.freisteller {
-  width: 40%;
-  display: inline-block;
-  vertical-align: top;
-}
+/* Where-Section */
 
-.freisteller img {
-  width: 100%;
-  display: inline-block;
-}
-
-
-/* Umgebungs-Slide */
-
-.environment {
-  box-sizing: border-box;
-  vertical-align: top;
+#section2 {
+    overflow: hidden;
 }
 
 .span1 {
-  display: inline-block;
-  width: 33.3%;
+    width: 33.3%;
+    display: inline-block;
 }
 
 .span2 {
-  display: inline-block;
-  width: 33.33%;
+    width: 33.3%;
+    display: inline-block;
 }
 
 .span3 {
-  display: inline-block;
-  width: 33.33%;
+    width: 33.3%;
+    display: inline-block;
 }
 
 .container {
-  position: relative;
+    position: relative;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #9D000D;
-  box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #9D000D;
+    box-sizing: border-box;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .container:focus .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  color: #fff;
-  font-size: 20px;
-  position: absolute;
-  min-width: 70%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    min-width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
+/* Charakter-Section */
 
-/* Charakter-Slide */
-
-.charakter img {
-  width: 100%;
+#section3 {
+    background-image: url(img/product.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+/* Technology-Section */
 
-/* Archetypen-Slide */
-
-.person {
-  width: 100%;
+#section4 {
+    background-image: url(img/meyvn1.jpg);
+    background-size: cover;
 }
 
-.photo {
-  width: 50%;
-  display: inline-block;
+/* Archetypen-Section */
+
+#section5 {
+    overflow: hidden;
 }
 
-.photo img {
-  width: 100%;
+#slide1 {
+    background-image: url(img/arc1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
 }
 
-.statment {
-  width: 49%;
-  padding: 30px;
-  font-family: Ubuntu;
-  font-size: 30px;
-  line-height: 50px;
-  color: #9D000D;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 130px;
-  text-align: center;
+#slide2 {
+    background-image: url(img/arc1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
 }
 
+#slide3 {
+    background-image: url(img/arc1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
+}
 
-/* Logo-Slide */
+.statement {
+    width: 49%;
+    position: relative;
+    top: -15%;
+    left: 50%;
+    padding: 50px;
+    font-family: Ubuntu;
+    font-size: 30px;
+    line-height: 50px;
+    color: #9D000D;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Community-Section */
 
 .logo {
-  width: 100%;
-  margin-top: 100px;
-  padding: 50px;
-  margin-bottom: 150px;
-  vertical-align: center;
+    width: 100%;
+    padding: 50px;
+    vertical-align: center;
 }
 
 .logo img {
-  width: 50%;
-  margin-left: 25%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .logo_text {
-  width: 100%;
-  text-align: center;
-  margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
 }
 
+/* Trailer-Section */
 
-/* Trailer-Slide */
-
-.trailer {
-  width: 100%;
+#section7 {
+    overflow: hidden;
 }
 
-.trailer video {
-  width: 100%;
+#trailer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    /*cover video background */
+    z-index: 3;
 }
 
+/* Value-Section */
 
-/* Value-Slide */
-
-.values {
-  width: 100%;
-  background-color: #9D000D;
-  height: 700px;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 100px;
+#section8 {
+    overflow: hidden;
+    background-color: #9D000D;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .value_text {
-  width: 49%;
-  padding: 20px;
-  height: 200px;
-  display: inline-block;
-  color: #fff;
+    width: 49%;
+    padding: 20px;
+    height: 200px;
+    display: inline-block;
+    color: #fff;
 }
 
 .values h1 {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-
-/* Team-Slide */
+/* Team-Section */
 
 .team {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .team_person {
-  display: inline-block;
+    display: inline-block;
 }
 
 .team img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  margin: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 30px;
 }
 
 .name {
-  width: 200px;
-  margin: 30px;
-  display: block;
+    width: 200px;
+    margin: 30px;
+    display: block;
 }
 
 .mantra {
-  width: 100%;
-  text-align: center;
-  margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
 }
