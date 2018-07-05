@@ -1,3 +1,17 @@
+@font-face {
+    font-family:'Open Sans';
+    font-style: normal;
+    src: local('Roboto'), local('Roboto-Regular'),
+    url(/fonts/OpenSans-Regular.ttf) format('true-type');
+ }
+ 
+ @font-face {
+    font-family:'Ubuntu';
+    font-style: normal;
+    src: url(/fonts/Ubuntu-Regular.ttf) format('true-type');
+ }
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,15 +19,15 @@
 body {
     font-family: Open Sans;
     color: #46494E;
-    font-size: 12pt;
-    line-height: 18pt;
+    font-size: 16px;
+    line-height: 26px;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     font-family: Ubuntu;
-    font-size: 20pt;
+    font-size: 26px;
     color: #9D000D;
 }
 
@@ -190,7 +204,7 @@ h1 {
     right: 0;
     bottom: 0;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
@@ -200,6 +214,14 @@ h1 {
     object-fit: cover;
     /*cover video background */
     z-index: 3;
+}
+
+.trailer {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
 }
 
 /* Value-Section */
