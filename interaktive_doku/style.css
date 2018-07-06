@@ -30,6 +30,14 @@ h1 {
     color: #9D000D;
 }
 
+h2 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    color: #E4DAC5;
+    line-height: 26px;
+    margin: 0 0 5px 0;
+}
+
 #section0 {
     background-image: url(img/meyvn1.jpg);
     background-size: cover;
@@ -120,9 +128,30 @@ h1 {
 /* Charakter-Section */
 
 #section3 {
-    background-image: url(img/product.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 20px;
+    background-color: #46494E;
+    color: #fff;
+}
+
+.character_videos {
+    width: 50%;
+    height: auto;
+    max-height: 50%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.character_videos video {
+    width: auto;
+    max-height:70%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text_character {
+    text-align: left;
 }
 
 /* Technology-Section */
