@@ -39,9 +39,16 @@ h2 {
 }
 
 #section0 {
-    background-image: url(img/meyvn1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_img {
+    height: 100%;
+    width: auto;
 }
 
 /* Why-Section */
@@ -228,6 +235,8 @@ h2 {
     overflow: hidden;
 }
 
+
+
 #trailer {
     position: absolute;
     right: 0;
@@ -243,6 +252,9 @@ h2 {
     object-fit: cover;
     /*cover video background */
     z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .trailer {
@@ -251,6 +263,8 @@ h2 {
     height: auto;
     max-height: 100%;
     position: relative;
+    margin: auto;
+    
 }
 
 /* Value-Section */
