@@ -2,13 +2,13 @@
     font-family:'Open Sans';
     font-style: normal;
     src: local('Roboto'), local('Roboto-Regular'),
-    url(/fonts/OpenSans-Regular.ttf) format('true-type');
+    url(../fonts/OpenSans-Regular.ttf) format('true-type');
  }
  
  @font-face {
     font-family:'Ubuntu';
     font-style: normal;
-    src: url(/fonts/Ubuntu-Regular.ttf) format('true-type');
+    src: url(../fonts/Ubuntu-Regular.ttf) format('true-type');
  }
 
 * {
@@ -39,22 +39,17 @@ h2 {
 }
 
 #section0 {
+    background-image: url(../img/meyvn1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.start_img {
-    height: 100%;
-    width: auto;
-}
-
 /* Why-Section */
 
 #section1 {
-    background-image: url(img/meyvn_freisteller.png);
+    background-image: url(../img/meyvn_freisteller.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -164,7 +159,7 @@ h2 {
 /* Technology-Section */
 
 #section4 {
-    background-image: url(img/meyvn1.jpg);
+    background-image: url(../img/meyvn1.jpg);
     background-size: cover;
 }
 
@@ -175,21 +170,21 @@ h2 {
 }
 
 #slide1 {
-    background-image: url(img/arc1.jpg);
+    background-image: url(../img/arc1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 50%;
 }
 
 #slide2 {
-    background-image: url(img/arc2.jpg);
+    background-image: url(../img/arc2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 50%;
 }
 
 #slide3 {
-    background-image: url(img/arc3.jpg);
+    background-image: url(../img/arc3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 50%;
