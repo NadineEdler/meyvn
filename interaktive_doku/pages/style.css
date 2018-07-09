@@ -156,9 +156,15 @@ h2 {
 /* Charakter-Section */
 
 #section3 {
-    padding: 20px;
+    padding: 10px 100px 10px 100px;
     background-color: #46494E;
     color: #fff;
+    height: 100%;
+}
+
+.row_videos {
+    width: 100%
+    vertical-align: top;
 }
 
 .character_videos {
@@ -168,18 +174,21 @@ h2 {
     display: inline-block;
     padding: 10px;
     text-align: center;
+    vertical-align: top;
 }
 
 .character_videos video {
     width: auto;
     max-height: 70%;
     height: auto;
-    max-width: 100%;
+    max-width: 70%;
     border-radius: 10px;
 }
 
 .text_character {
     text-align: left;
+    width: 70%;
+    margin-left: 15%;
 }
 
 /* Technology-Section */
@@ -318,20 +327,27 @@ h2 {
 #section8 {
     overflow: hidden;
     background-color: #9D000D;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.value_text {
-    width: 49%;
-    padding: 20px;
-    height: 200px;
-    display: inline-block;
+.span_values {
+    width: 100%;
+    vertical-align: top;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.span_values .value_text {
+    width: 50%;
     color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
 }
 
 .values h1 {
-    color: #ffffff;
+    color: #E4DAC5;
 }
 
 /* Team-Section */
