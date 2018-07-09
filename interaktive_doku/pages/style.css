@@ -41,6 +41,7 @@ h2 {
     background-image: url(../img/meyvn1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +53,7 @@ h2 {
     background-image: url(../img/meyvn_freisteller.png);
     background-size: 40%;
     background-repeat: no-repeat;
+    background-position: center top;
     background-position-x: right;
 }
 
@@ -161,6 +163,7 @@ h2 {
 #section4 {
     background-image: url(../img/meyvn1.jpg);
     background-size: cover;
+    background-position: center top;
 }
 
 /* Archetypen-Section */
