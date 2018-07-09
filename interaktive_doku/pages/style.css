@@ -57,13 +57,29 @@ h2 {
     background-position-x: right;
 }
 
-/*
-#slideHowUse1 {}
+#slideHowUse1 {
+    background-image: url(../img/use1.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 80%;
+}
 
-#slideHowUse2 {}
+#slideHowUse2 {
+    background-image: url(../img/use2.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 80%;
+}
 
-#slideHowUse3 {}
-*/
+#slideHowUse3 {
+    background-image: url(../img/use3.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 80%;
+}
 
 .what_text {
     width: 50%;
