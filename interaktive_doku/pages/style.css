@@ -51,10 +51,10 @@ h2 {
 
 #slideWhyPicture {
     background-image: url(../img/meyvn_freisteller.png);
-    background-size: 40%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center top;
-    background-position-x: right;
+    background-position-x: 90%;
 }
 
 #slideHowUse1 {
