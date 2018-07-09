@@ -71,7 +71,7 @@ html.fp-enabled,
     left: 20px;
     width: 0;
     border-width: 20px 20px 20px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #000 transparent transparent;
     opacity: 0.5;
 }
 .fp-controlArrow.fp-next {

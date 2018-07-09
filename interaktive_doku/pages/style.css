@@ -160,9 +160,15 @@ h2 {
     background-color: #46494E;
     color: #fff;
     height: 100%;
+    width: 100%;
 }
 
-.row_videos {
+.row1_videos {
+    width: 100%;
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+.row2_videos {
     width: 100%;
     vertical-align: top;
 }
@@ -182,7 +188,8 @@ h2 {
     max-height: 70%;
     height: auto;
     max-width: 70%;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
 }
 
 .text_character {
