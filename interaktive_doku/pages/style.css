@@ -190,6 +190,33 @@ h2 {
     background-position: center top;
 }
 
+#slideHowItWorks1 {
+    background-image: url(../img/flow1.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 85%;
+    background-position-y: 30%;
+}
+
+#slideHowItWorks2 {
+    background-image: url(../img/flow2.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 80%;
+    background-position-y: 30%;
+}
+
+#slideHowItWorks3 {
+    background-image: url(../img/flow3.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: 80%;
+    background-position-y: 30%;
+}
+
 /* Archetypen-Section */
 
 #section5 {
