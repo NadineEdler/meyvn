@@ -450,18 +450,20 @@ h2 {
 
 .team_person {
     display: inline-block;
+    width: 20%;
+    min-width: 160px;
 }
 
 .team img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
     border-radius: 100%;
-    margin: 30px;
+    padding: 30px;
+    display: block;
 }
 
 .name {
-    width: 200px;
-    margin: 30px;
+    width: 100%;
+    padding: 30px;
     display: block;
 }
 
