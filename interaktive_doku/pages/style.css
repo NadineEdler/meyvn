@@ -221,7 +221,6 @@ h2 {
 }
 
 .panel, .flip {
-    padding: 5px;
     text-align: center;
   }
   
@@ -232,32 +231,58 @@ h2 {
     font-size: 16px;
     color: #fff;
     background-color: #9D000D;
-    margin-left: 0;
+    margin-right: 0;
     margin-top: 0;
     position: absolute;
+    right: 30px; 
+    top:0;
 }
 
-#plus1{
-    left: 30%;
-    top: 15%;
+#plus_schirm{
+    left: 31%;
+    top: 13%;
     position: absolute;
 }
 
-#plus2{
+#plus_kamera{
     margin-left: 18%;
     margin-top: 23%;
     position: absolute;
 }
 
-#plus3{
+#plus_beamer{
     margin-left: 34%;
     margin-top: 26%;
     position: absolute;
 }
 
-#plus4{
+#plus_stift{
     margin-left: 36%;
     margin-top: 34%;
+    position: absolute;
+}
+
+#plus_arm{
+    margin-left: 90%;
+    margin-top: 24%;
+    position: absolute;
+}
+
+#plus_licht{
+    margin-left: 37%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+#plus_an{
+    margin-left: 32%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+#plus_halterung{
+    left: 39%;
+    top: 18%;
     position: absolute;
 }
 
